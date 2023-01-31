@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Just+Another+Hand&display=swap");
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --Barley-White: #fff6cc;
+    --Aqua-Squeeze: #e4f7f3;
+    --Dark-Green-Blue: #125e50;
+    --Light-Teal: #8fdfd1;
+    --Normal-Text: #4e516c;
+    --Heading-Color: #151b4a;
+    --See-More: #ea5858;
+    --Mikado-Yellow: #ffcc00;
+    --Links: #4e516c;
+}
+
+.declaimer {
+    color: #fff;
+    background: black;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3px;
+    padding-left: 2.7rem;
+    padding-right: 2.2rem;
+}

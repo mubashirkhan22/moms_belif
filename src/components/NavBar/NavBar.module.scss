@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --Barley-White: #fff6cc;
+  --Aqua-Squeeze: #e4f7f3;
+  --Dark-Green-Blue: #125e50;
+  --Light-Teal: #8fdfd1;
+  --Normal-Text: #4e516c;
+  --Heading-Color: #151b4a;
+  --See-More: #ea5858;
+  --Mikado-Yellow: #ffcc00;
+  --Links: #4e516c;
+}
+
+.nav_links {
+  width: max-content;
+  height: 23px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 23px;
+  /* identical to box height, or 164% */
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4e516c;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition: 0.3s;
+}
+
+.nav_links:hover {
+  cursor: pointer;
+  background-color: #ebecf3;
+}
+.new {
+  background: #ea5858;
+  color: #fff6cc;
+  font-size: 9px;
+  line-height: 15px;
+  position: absolute;
+  bottom: 1.2rem;
+  right: 0;
+  padding: 0px 5px 0px 5px !important;
+
+  margin: 0;
+  border-radius: 10px;
+}
+.emin {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav_btn_div {
+  width: 9.5rem;
+  display: flex !important;
+  justify-content: space-between;
+}
+.nav_btn {
+  font-family: "Inter";
+  font-size: 0.75rem !important;
+  color: #125e50 !important;
+  border: 1px solid #125e50 !important;
+  border-radius: 70px !important;
+}
+.signUpBtn {
+  background-color: #125e50 !important;
+  color: #fff6cc !important;
+}
+
+@media(max-width: 320px){
+  .emin {
+    display: flex;
+  }
+
+}

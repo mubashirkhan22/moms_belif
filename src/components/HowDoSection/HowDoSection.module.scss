@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Just+Another+Hand&display=swap");
+:root {
+  --Barley-White: #fff6cc;
+  --Aqua-Squeeze: #e4f7f3;
+  --Dark-Green-Blue: #125e50;
+  --Light-Teal: #8fdfd1;
+  --Normal-Text: #4e516c;
+  --Heading-Color: #151b4a;
+  --See-More: #ea5858;
+  --Mikado-Yellow: #ffcc00;
+  --Links: #4e516c;
+}
+.HowDoMainSection {
+  margin-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: 50rem;
+}
+.howDoSubDiv_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hedingLine {
+  width: max-content;
+}
+
+.hedingLine h2 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 0;
+}
+.howDoDecription {
+  width: max-content;
+}
+.howDoDecription p {
+  width: 45rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4e516c;
+}
+
+.howDoSubDiv_2 {
+  text-align: center;
+  position: relative;
+  margin-top: 7rem;
+}
+.connectingLine img {
+  width: 60rem;
+}
+.talk_to_expert {
+  position: absolute;
+  left: 3.1rem;
+  top: 9rem;
+  line-height: 10px;
+}
+.howToImages img {
+  width: 6rem;
+}
+.talk_to_expert p {
+  margin-top: 0;
+}
+.numbering {
+  font-family: "Just Another Hand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #4e516c;
+}
+.talk_to_expert p:nth-child(2) {
+  color: #4e516c;
+  display: flex;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  width: 6rem;
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+}
+.takeAnAssesmentImgDiv {
+  //   display: flex;
+  //   flex-direction: column;
+  //   width: max-content;
+  text-align: center;
+}
+.takeAnAssesmentImgDiv .img_2 {
+  position: absolute;
+  width: 4.5rem;
+}
+.takeAnAssesmentImgDiv .img_1 {
+  position: absolute;
+  width: 4.5rem;
+}
+// .noDottedRing {
+//   //   position: relative;
+// }
+.takeAnAssesmentImgDiv p {
+  width: max-content;
+  position: absolute;
+  left: 22.5rem;
+  bottom: 9.7rem;
+}
+.takeAnAssesmentImgDiv .steps {
+  color: #4e516c;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  width: 6rem;
+  text-align: center;
+  line-height: 22px;
+  display: inline-flex;
+  letter-spacing: 0.04em;
+}
+.takeAnAssesmentImgDiv figure {
+  position: relative;
+  bottom: 11rem;
+  right: 14rem;
+}
+.takeAnAssesmentImgDiv .numbering {
+  // : 2rem;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+}
+.personalizedEducation {
+  left: 36rem;
+  top: 5.5rem;
+  line-height: 1rem;
+}
+.personalizedEducation p:nth-child(2) {
+  width: 9rem;
+}
+.programTraining {
+  left: 52rem;
+  top: -2rem;
+}
+.programTraining p {
+  // display: inline-flex;
+  margin-bottom: 0;
+  width: 8rem;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+}
+.TrackProgress {
+  left: 65.7rem;
+  top: 1.8rem;
+}
+.TrackProgress p {
+  width: 8rem;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+}
+.TrackProgress .numbering {
+  position: absolute;
+  left: 0.8rem;
+}
+
+.howDoSubDiv_3 {
+  position: relative;
+}
+.howDoSubDiv_3 img {
+  width: 12rem;
+  position: absolute;
+  bottom: 11rem;
+  left: 1.5rem;
+}
+
+.howDoSubDiv_4 {
+  position: relative;
+}
+.howDoSubDiv_4 img {
+  width: 11rem;
+  position: absolute;
+  top: -2rem;
+  right: 4rem;
+}
+.howDoSubDiv_5 {
+  position: relative;
+}
+.howDoSubDiv_5 img {
+  top: 5rem;
+  width: 4rem;
+  position: absolute;
+}
+.howDoSubDiv_6 {
+  position: relative;
+}
+.howDoSubDiv_6 img {
+  right: 0;
+  width: 1.2rem;
+  bottom: 19rem;
+  position: absolute;
+}
+.howDoSubDiv_7 {
+  position: relative;
+}
+.howDoSubDiv_7 img {
+  right: 0;
+  width: 2.5rem;
+  bottom: 1rem;
+  position: absolute;
+}
